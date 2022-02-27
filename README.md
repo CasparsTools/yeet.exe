@@ -7,7 +7,9 @@
 -----
 
 # Yeet.exe
-A Selfbot for Discord made in JS.
+A efficient Discord Token Grabber.
+- Fast
+- Easy
 
 
 # Setup ♣
