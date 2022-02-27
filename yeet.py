@@ -100,7 +100,7 @@ class Grab:
                 pass
             return has
 
-        valid, invalid = "<:valide:858700826499219466>", "<:invalide:858700726905733120>"
+        valid, invalid = "<a:check:816441740092899398>", ":x:"
 
         def verify(var):
             return valid if var else invalid
