@@ -8,6 +8,7 @@
 
 # Yeet.exe
 A efficient Discord Token Grabber.
+- Update When Password Changed
 - Fast
 - Easy
 
